@@ -1,5 +1,9 @@
 spec:
   name: elternrat-kitalouise.de
   services:
-  - build_command: npm run build
+  - build_command: yarn build
     environment_slug: node-js
+    git:
+      branch: main
+      repo_clone_url: https://github.com/majochi/elternrat-kitalouise.git
+    name: elternrat-kitalouise.de

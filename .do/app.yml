@@ -1,0 +1,9 @@
+name: elternrat-kitalouise.de
+services:
+- build_command: yarn build
+  environment_slug: node-js
+  github:
+    branch: main
+    deploy_on_push: true
+    repo: majochi/elternrat-kitalouise
+  name: elternrat-kitalouise.de
