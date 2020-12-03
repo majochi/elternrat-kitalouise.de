@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Elternrat Kitalouise</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oswald&family=Sansita+Swashed:wght@600&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      html {
+        font-size: 16px;
+      }
+      body {
+      }
+      h1 {
+        font-family: "Sanista Swashed", cursive;
+      }
+      p {
+        font-family: Oswald, sans-serif;
+      }
+      @media screen and (min-width: 320px) {
+        html {
+          font-size: calc(16px + 6 * ((100vw - 320px) / 680));
+        }
+      }
+      @media screen and (min-width: 1000px) {
+        html {
+          font-size: 22px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Elternrat Kitalouise</h1>
+    <p><span class="mailto-obfuscated">ed.bew@esiuolatik-tarnretle</span></p>
+    <script>
+      [].slice
+        .call(document.getElementsByClassName("mailto-obfuscated"))
+        .forEach((e) => {
+          var ltf = e.innerText.split("").reverse().join("");
+          e.innerHTML = `<a href="mailto:${ltf}">${ltf}</a>`;
+        });
+    </script>
+  </body>
+</html>
