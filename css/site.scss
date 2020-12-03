@@ -4,18 +4,19 @@ html {
   font-size: $font-size;
 }
 body {
-  background-color: #d9c6ba;
-  color: #010d00;
+  background-color: #f2d9bb;
+  color: #025373;
   margin: $font-size;
 }
 h1 {
+  color: #bf6b63;
   font-family: "Nerko One", cursive;
 }
 p {
   font-family: Oswald, sans-serif;
 }
 a {
-  color: #025373;
+  color: #03738c;
 }
 @media screen and (min-width: 320px) {
   html {
