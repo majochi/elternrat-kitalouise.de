@@ -1,0 +1,25 @@
+{
+  "name": "elternrat-kitalouise.de",
+  "version": "0.0.1",
+  "description": "webpack bundled static website",
+  "main": "src/index.js",
+  "repository": "https://github.com/majochi/elternrat-kitalouise.git",
+  "author": "Joachim Knust <jo@goetheborg.net>",
+  "license": "MIT",
+  "scripts": {
+    "build": "webpack --config webpack.prod.js",
+    "serve": "webpack serve --config webpack.dev.js"
+  },
+  "devDependencies": {
+    "css-loader": "^5.0.1",
+    "html-webpack-plugin": "^4.5.0",
+    "mini-css-extract-plugin": "^1.3.1",
+    "normalize.css": "^8.0.1",
+    "sass": "^1.29.0",
+    "sass-loader": "^10.1.0",
+    "webpack": "^5.9.0",
+    "webpack-cli": "^4.2.0",
+    "webpack-dev-server": "^3.11.0",
+    "webpack-merge": "^5.4.0"
+  }
+}
